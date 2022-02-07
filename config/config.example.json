@@ -1,0 +1,26 @@
+{
+    "development": {
+        "username": "msamgan",
+        "password": "mSamgan@1993",
+        "database": "shopini_world",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "migrationStorageTableName": "security_migrations"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "migrationStorageTableName": "security_migrations"
+    },
+    "production": {
+        "username": "shopini",
+        "password": "shopini@2021",
+        "database": "Shopiniworld_prod",
+        "host": "database-mysql.c2axihksrldg.us-east-2.rds.amazonaws.com",
+        "dialect": "mysql",
+        "migrationStorageTableName": "security_migrations"
+    }
+}

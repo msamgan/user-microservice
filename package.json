@@ -1,0 +1,37 @@
+{
+    "name": "role-permissions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "author": "Huda Qeshta",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "async": "^3.2.2",
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-async-errors": "^3.1.1",
+        "express-useragent": "^1.0.15",
+        "express-validator": "^6.14.0",
+        "jest": "^27.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.15",
+        "rand-token": "^1.0.1",
+        "sequelize": "^6.12.0-alpha.1",
+        "supertest": "^6.1.6",
+        "winston": "^3.3.3"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": false
+    }
+}
