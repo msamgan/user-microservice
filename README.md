@@ -2,6 +2,16 @@
 
 Initially created by [Huda W. Qeshta](https://github.com/hudaQeshta). This package is great piece of art.
 
+## How To Use
+
+1. Clone the Package
+2. Create an .env from .env.example
+3. Add port to .env
+4. Create config.json from config.example.json in config directory
+5. Add your Database Configuration to config.json
+
+## Features
+
 Package contains the following Feature the moment you get the setup up and running.
 
 1. Groups Module
